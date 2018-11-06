@@ -173,9 +173,12 @@ footer {
 	background-image: url(img/peer.png);
 }
 
-.sunset {
-	background-image: url(img/sea.png);
+.steps {
+	background-image: url(img/steps.jpg);
+	image-orientation: 90deg;
 }
+
+
 
 @media screen and (max-width: 640px) {
 	.small-no {
@@ -207,6 +210,12 @@ footer {
 	{
 		padding-left: 0;
 	}
+
+
+	.image {
+		max-width: 110%;
+	}
+
 }
 
 
