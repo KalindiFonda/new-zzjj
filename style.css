@@ -68,6 +68,7 @@ td {
 
 table {
 	margin: 0 auto;
+	padding: 1em;
 }
 
 iframe {
@@ -108,6 +109,12 @@ a {
 a:hover {
 	color: rgb(57, 97, 211);
 }
+
+.text a {
+	color: black;
+}
+
+
 
 nav {
 	position: fixed;
@@ -170,13 +177,35 @@ footer {
 	background-image: url(img/sea.png);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 	.small-no {
 		display: none;
 	}
 
 	.small-yes {
 		display: table;
+	}
+
+	.info {
+		display: block;
+		padding: 0;
+	}
+
+	details
+	{
+		max-width: 80%;
+		margin: 1em auto;
+	}
+
+	h1 {
+		font-size: 2em;
+		padding-left: 0;
+		max-width: 60%;
+	}
+
+	.logo
+	{
+		padding-left: 0;
 	}
 }
 
